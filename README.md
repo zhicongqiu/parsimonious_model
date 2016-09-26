@@ -9,3 +9,5 @@ Run [MODEL,METRICS] = parsimonious(Data_whole, M_max);
 
 
 It works in Octave, and it needs statistics and ndpar packages.
+
+NOTE: standardize variables if they are different units or operating on different scales.
