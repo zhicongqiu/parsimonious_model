@@ -21,7 +21,7 @@ if share_exist==0
 	end
     end
   end
-  V_trial(j)=0;V_trial(k)=0;share_exist_trial = 1;
+  V_trial(index_1)=0;V_trial(index_2)=0;share_exist_trial = 1;
   updated = 1;
   %Update shared parameters, using the previous Pzi???
   Up = 0; Down = 0;
